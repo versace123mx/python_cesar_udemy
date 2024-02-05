@@ -1,0 +1,24 @@
+{% extends '../layout/frontend.html' %}{% load static %}
+
+{% block tituloHome%}esoty en la applicacion de diseño{%endblock%}
+
+{% block manzana %}
+
+<main class="container">
+  <h3>Diseño y herramientas varias</h3>
+  <ul>
+    <li>
+      <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#ventanaModal">Ventana modal</a>
+    </li>
+    <li>
+      <a href="javascript:void(0)" onclick="muestraAlerta()">Sweet alert</a>
+    </li>
+    <li>
+      <a href="">Fancybox</a>
+    </li>
+    <li>
+      <a href="">Ajax</a>
+    </li>
+  </ul>
+</main>
+{% endblock %}

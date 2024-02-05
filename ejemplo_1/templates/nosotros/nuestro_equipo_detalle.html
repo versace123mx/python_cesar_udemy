@@ -1,0 +1,21 @@
+{% extends '../layout/frontend.html' %}{% load static %}
+
+{% block tituloHome%}Pagina de Nuestro equipo detalle{%endblock%}
+
+{% block manzana %}
+
+<main class="container">
+  <div class="row">
+    <h1>Hola desde nuestro equpo detalle</h1>
+    <h3>Yo soy {{nombre}}</h3>
+    <ul>
+      <li>ID: {{id}}</li>
+      <li>Slug: {{slug1}}</li>
+      <li>Nombre: {{nombre}}</li>
+      <li>Lista: {{diasSemana}}</li>
+    </ul>
+
+  </div>
+
+</main>
+{% endblock %}
